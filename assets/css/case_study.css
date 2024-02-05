@@ -12,15 +12,10 @@
     flex-direction: row;
 }
 
-.theme_font_color{
-    color: #ffdd11;
-}
 .bg_theme{
     background-color: #ffdd11 !important;
 }
-.casestudy_top_section1 .container .row .right .serv_right a .fa-house:hover{
-    color:#ffdd11;
-}
+
 .case_study_section2 .card{
 border: none !important;
 border-radius: none !important;
@@ -58,10 +53,10 @@ border-radius: 75%;
     transform: scale(1.1);
     cursor: pointer;
 }
-.bg_gray i {
+.bg_gray i{
     display: inline-block;
     font-size: 100px;
-    color: #ffdd11;
+    color: #17c1e8;
     margin-top: 15%; 
     overflow: hidden !important;
 }

@@ -4,12 +4,11 @@
   box-sizing: border-box;
  
 }
-
 body{
   overflow-x: hidden;
 }
 .navbar_section .navbar {
-  background-color: white !important;
+  background-color: #fff !important;
 }
 .navbar-expand-lg .navbar-nav .nav-link {
   padding: 10px 12px;
@@ -28,7 +27,7 @@ body{
 
 }
 .navbar_section .navbar .drop_style{
-  background-color: rgba(252, 251, 251, 0.885) !important;
+  background-color: #fff !important;
 }
 .navbar_section .navbar .drop_style :hover{
   background-color: none !important;
@@ -41,20 +40,27 @@ body{
 }
 
 .navbar_section .navtog_btn {
-  border-color: #17C1E8;
-  color: #17C1E8;
-  background-color: white !important;
-  padding: 8px;
+  border-color: #17c1e8 !important;
+  color: #17c1e8 !important;
+  background-color: #fff !important;
+ padding: 8px;
 }
 
 .navbar_section .navtog_btn:hover {
-  background-color: #17C1E8 !important;
-  color: white !important;
+  background-color: #17c1e8 !important;
+  color: #fff !important;
   transition: all 0.5s ease;
 }
 
+/* .nav_contact_btn_border {
+  color: #67748e !important;
+    font-size: 16px;
+    font-weight: 400 !important;
+} */
+
 /* ------ New navbar-------- */
-.navbar .dropdown-menu a,.navbar .dropdown-menu a:hover{background:none !important}
+.navbar .dropdown-menu a,.navbar .dropdown-menu a:hover{
+  background:none !important}
 
 .navbar_section .navbar .container .font_color{
   color: rgb(255, 255, 255) !important;
@@ -71,16 +77,22 @@ body{
   border: 1px solid  rgb(33, 82, 255) !important ;
   color: rgb(255, 255, 255) !important;
 }
+#nav_contact {
+  color: #67748e !important;
+    font-size: 16px;
+    font-weight: 400 !important;
+}
 #nav_contact:hover{
   background: linear-gradient(310deg, rgb(33, 82, 255), rgb(33, 212, 253)) !important;
   color: #fff !important;
+  border: none ;
 }
 .navbar_section .nav_btnn {
   border-radius: 0px inherit !important;
   padding: 8px 20px 9px 20px !important;
   font-size: 16px;
   font-weight: 500;
-  border-color: #17c1e8;
+  border-color: #17c1e8 !important;
   background: none;
   color: #344767;
   background-color: #fff !important;
@@ -119,7 +131,7 @@ body{
 }
 .footer .flex_cont {
   display: flex;
-  color: white !important;
+  color: #fff !important;
 }
 .footer .ser_box {
   display: flex;
@@ -131,38 +143,37 @@ body{
 
 }
 .footer .flist_clr {
-  color: white !important;
+  color: #fff !important;
   font-weight: 200;
 }
 
 .footer .flist_clr:hover {
   text-decoration: none !important;
-  color: #17C1E8 !important;
+  color: #17c1e8 !important;
 }
 .footer .foot_hero{
-  font-size: x-large !important;
-  color:  white !important;
+  font-size: 24px !important;
+  color:  #fff !important;
   font-family:"roboto sans-serif" !important;
   font-weight: bold !important;
 }
 .footer .foot_hero_sub{
-  color: white;
+  color: #fff;
    font-weight: 500 !important;
    font-family:"Poppins sans-serif"; 
-   font-size: medium !important; 
+   font-size: 16px !important;
 }
 .footer .new_highlight{
   background-image:linear-gradient(310deg, rgb(33, 82, 255), rgb(33, 212, 253));
   padding: 0px 1px;
-  color: white !important;
+  color: #fff !important;
 }
 .footer .new_highlight:hover{
   text-decoration: none !important;
 }
-
-/* ------------------------------------- */
-
-
+.foot_mail{
+  color: #17c1e8 !important;
+}
 /* Social media */
 
 .social_media{
@@ -196,13 +207,24 @@ body{
   max-height: 60px !important;
 }
 
-.social_media .lgo_container li a{
-  color: white !important;
-  font-size: large;
+/* .social_media .lgo_container li a{
+  color: #fff !important;
+  font-size: 18px; 
   text-decoration: none !important;
-}
+} */
 .social_media .lgo_container li a:hover{
- color: #17C1E8 !important;
+  color: #17c1e8 !important;
+  /* color: linear-gradient(310deg, rgb(33, 82, 255), rgb(33, 212, 253)) !important; */
+}
+.social_media  .social_fnt{
+  font-size: 18px; 
+  height: 30px !important;
+  width: 30px !important;
+  text-align: center !important;
+  padding: 6px 2px 21px !important;
+border-radius: 20px !important;
+color: #fff !important;
+ background: linear-gradient(310deg, rgb(33, 82, 255), rgb(33, 212, 253)) !important;
 }
 .social_media .end_items{
   display: flex;
@@ -219,11 +241,11 @@ body{
 }
 .social_items .end_items li a{
  list-style: none !important;
- color: white !important;
+ color: #fff !important;
  text-decoration: none !important;;
 }
 .social_items .end_items li:hover a{
-   color: #17C1E8 !important;
+   color: #17c1e8 !important;
 }
 .dropdown:hover .dropdown-menu {
   display: block;

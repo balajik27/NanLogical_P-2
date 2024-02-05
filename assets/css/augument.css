@@ -5,14 +5,13 @@
 /* ---------------section colours------------------ */
 .bg_ar
 {
-color: #FFDD11 !important;
-
+color:  #17c1e8 !important;
 }
 .bg_w{
     background-color: #fff;
 }
 .bg_y{
-    background-color: #FFDD11 !important;
+    background:linear-gradient(310deg, rgb(20, 23, 39), rgb(58, 65, 111));
 }
 .bg_color2{
     background-color:#f6f6f6 !important;
@@ -21,9 +20,7 @@ color: #FFDD11 !important;
     padding-bottom: 30px;
     padding-top: 30px;
 }
-.theme_font_color{
-    color:#ffdd11;
-}
+
 .services_bg_image1{
     margin: 0;
     padding: 0;
@@ -60,7 +57,7 @@ color: #FFDD11 !important;
   }
 .tech_stack i:hover{
     font-size: 60px !important;
-    color: #ffdd11;
+    color:  #17c1e8;
     transition: 1s;
     cursor:pointer;
   }

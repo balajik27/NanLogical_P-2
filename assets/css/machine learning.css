@@ -5,14 +5,16 @@
 /* ---------------section colours------------------ */
 .bg_ar
 {
-color: #FFDD11 !important;
-
+color:  #17c1e8 !important;
+}
+.why_us i{
+    font-size: 24px;
 }
 .bg_w{
     background-color: #fff;
 }
 .bg_y{
-    background-color: #FFDD11 !important;
+    background:linear-gradient(310deg, rgb(20, 23, 39), rgb(58, 65, 111));
 }
 .bg_color2{
     background-color:#f6f6f6 !important;
@@ -35,11 +37,13 @@ color: #FFDD11 !important;
 .services_top_section2{
     height:350px;
 }
-/* .services_top_section2 .padding_top{
+.services_top_section2 .padding_top{
     padding: 35px !important;
     align-items: center;
-} */
+}
 .services_top_section2 .padding_top .text_bg{
+    -webkit-box-decoration-break: clone;
+    box-decoration-break: clone;
     background: rgba(0, 0, 0, 0.349);
     padding: 3px 15px 3px;
     line-height: 55px;
@@ -55,7 +59,7 @@ color: #FFDD11 !important;
   }
 .tech_stack i:hover{
     font-size: 60px !important;
-    color: #ffdd11;
+    color:  #17c1e8;
     transition: 1s;
     cursor:pointer;
   }
@@ -68,9 +72,6 @@ color: #FFDD11 !important;
     padding:20px 2px;
 }
 /* ---------out source-------------- */
-.case_study .case_btn{
-    margin-top: 1rem !important;
-}
 .case_study .case_img{
     background-image: url(../images/outsource1.png);
     background-repeat: no-repeat;
@@ -93,12 +94,3 @@ color: #FFDD11 !important;
     width: 285px;
     height: 127px;
  }
- /* ---------------owl theme--------------- */
- .owl-theme .owl-dots .owl-dot span,.owl-theme .owl-dots .owl-dot span:hover{
-    background-color:#fff !important;
-    border: 2px solid #ffdd11 !important;
-}
-.owl-theme .owl-dots .owl-dot.active span,.owl-theme .owl-dots .owl-dot.active span:hover{
-    background-color: #ffdd11 !important;
-    border: none !important;
-}

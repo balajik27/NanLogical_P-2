@@ -55,11 +55,9 @@ a,a:hover{
   line-height: 30px;
 }
 .theme_bg{
-    background-color: #ffdd11;
+    background:linear-gradient(310deg, rgb(20, 23, 39), rgb(58, 65, 111));
 }
-.theme_font_color{
-    color: #ffdd11;
-}
+
 .col-md-6 img,.bg_color_img img{
     vertical-align: middle;
     max-width: 100%;
@@ -88,38 +86,6 @@ a,a:hover{
     padding: 40px 0;
     min-height: 100vh;
  }
-.btn-outline-light{
-   border-radius:0 !important;
-   margin: 3px;
-   border: 1px solid white;
- }
- .btn-outline-dark{
-    border-radius:0 !important;
-    margin: 3px;
-    border: 1px solid black; 
- }
- .btn-outline-warning{
-    border-radius: 0 !important;
-    border: 1px solid #FFDD11 !important;
-    color: #ffdd11 !important;
-    font-weight: 400 !important;
-}
-.btn-outline-warning:hover{
-    border-radius: 0 !important;
-    border: 1px solid #ffdd11 !important;
-    color:white !important;
-    font-weight: 400 !important;
-    background-color: #FFDD11;
-    cursor: pointer;
-}
-.owl-theme .owl-dots .owl-dot span,.owl-theme .owl-dots .owl-dot span:hover{
-    background-color:white !important;
-    border: 2px solid #ffdd11 !important;
-}
-.owl-theme .owl-dots .owl-dot.active span,.owl-theme .owl-dots .owl-dot.active span:hover{
-    background-color: #ffdd11 !important;
-    border: none !important;
-}
 
 /* ----------------------------------bg_img_path------ */
 .bg_img_path{
@@ -154,31 +120,13 @@ a,a:hover{
 .selected_cases .container .owl-carousel .item:hover a img {
     transform: scale(1.2) rotate(5deg);
 }
-.owl-theme .owl-dots .owl-dot span,.owl-theme .owl-dots .owl-dot span:hover{
-    background-color:white !important;
-    border: 2px solid #ffdd11 !important;
-}
-.owl-theme .owl-dots .owl-dot.active span,.owl-theme .owl-dots .owl-dot.active span:hover{
-    background-color: #ffdd11 !important;
-    border: none !important;
-}
+
 .owl-theme .owl-nav{
     display: none;
 }
-/* --------------contact us------------------------------- */
-.contact_us .btn-outline-warning,.ready_to_start .btn-outline-warning{
-    border-radius: 0 !important;
-    border: 1px solid white;
-    color: white;
-    font-weight: 400 !important;
-}
-.contact_us .btn-outline-warning:hover,.ready_to_start .btn-outline-warning:hover{
-    background-color: white;
-    color:black !important;
-}
 
 /* -----------why us--------------------------------- */
-.why_us .col-sm-4{
+.why_us .col-md-4{
     height: auto;
     flex-grow: 1;
     display: flex;
@@ -186,7 +134,7 @@ a,a:hover{
     flex-direction: column;
     padding: 15px auto !important;
 }
-.why_us .container .row .col-sm-4 i{
+.why_us .container .row .col-md-4 i{
     font-size: 24px;
 }
 /* * ------------tech stach---------- */
@@ -195,7 +143,7 @@ a,a:hover{
 }
 .tech_stack i:hover{
     font-size: 60px !important;
-    color: #ffdd11;
+    color: #17c1e8;
     transition: 1s;
     cursor:pointer;
   }

@@ -22,6 +22,47 @@ h3 {
 h2{
     font-size: 30px;
 }
+
+.btn-primary1{
+    background: linear-gradient(310deg, rgb(33, 82, 255), rgb(33, 212, 253));
+    border: none !important;
+    color:#fff !important;
+    border-radius:0 !important;
+    box-shadow: rgba(20, 20, 20, 0.12) 0rem 0.25rem 0.375rem -0.0625rem, rgba(20, 20, 20, 0.07) 0rem 0.125rem 0.25rem -0.0625rem;
+}
+
+.btn-outline-primary1{
+    border: 1px solid  rgb(33, 82, 255) !important ;
+    color: #67748e;
+    border-radius:0 !important;
+}
+.btn-outline-primary1:hover,.btn-outline-primary1:active{
+    background: linear-gradient(310deg, rgb(33, 82, 255), rgb(33, 212, 253));
+    color: #fff !important;
+    border: none !important;
+    border-radius:0 !important;
+    outline: none !important;
+}
+.owl-theme .owl-dots .owl-dot
+{
+    outline: none !important;
+}
+.owl-carousel a, .owl-carousel a:hover{
+    text-decoration: none;
+    color: #17c1e8;
+}
+
+.owl-theme .owl-dots .owl-dot span,.owl-theme .owl-dots .owl-dot span:hover{
+    background-color:#fff !important;
+    border: 2px solid #17c1e8 !important;
+}
+.owl-theme .owl-dots .owl-dot.active span,.owl-theme .owl-dots .owl-dot.active span:hover{
+    background-color: #17c1e8 !important;
+    border: none !important;
+}
+.owl-carousel .owl-nav button.owl-prev,.owl-carousel .owl-nav button.owl-next{
+    display: none;
+}
 /* -----------------------------font -family -------------------- */
 @font-face {
     font-family: Montserrat-Bold;

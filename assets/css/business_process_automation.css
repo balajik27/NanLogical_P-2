@@ -16,9 +16,8 @@
         padding-bottom:22px;   
         width: 100%;
 }
-
-.software_d_p{
-  aspect-ratio: 16/9;
+.why_us i{
+    font-size: 24px;
 }
 a,a:hover{
     text-decoration: none;
@@ -37,30 +36,9 @@ a,a:hover{
     padding-bottom: 30px;
     padding-top: 30px;
 }
-.theme_font_color{
-    color: #ffdd11;
-}
+
 .bg_theme{
-    background-color: #ffdd11 !important;
-}
-.btn-warning{
-    border-radius: 0 !important;
-    background-color: #ffdd11 !important;
-    border: 1px solid #ffdd11 !important;
-    color:#fff !important;
-}
-.btn-outline-warning{
-    border-radius: 0 !important;
-    border: 1px solid #FFDD11 !important;
-    color: #ffdd11 !important;
-    font-weight: 400 !important;
-}
-.btn-outline-warning:hover{
-    border-radius: 0 !important;
-    border: 1px solid #ffdd11 !important;
-    color:#fff !important;
-    font-weight: 400 !important;
-    background-color: #FFDD11;
+    background:linear-gradient(310deg, rgb(20, 23, 39), rgb(58, 65, 111));
 }
 
 /* --------------------------background image for services page----------------------------- */
@@ -73,11 +51,6 @@ a,a:hover{
     background-size:cover !important;
     background-attachment: fixed;
     z-index: -1;
-}
-
-/*---------------------------- services_top_section1----------------------------------*/
-.services_top_section1 .container .row .right .serv_right a .fa-house:hover{
-color:#ffdd11;
 }
 /*---------------------------- services_top_section2 --------------------------------*/
 .services_top_section2{
@@ -127,14 +100,7 @@ border: none !important;
     background-position: center;
     border-radius: 60%;
 }
-.owl-theme .owl-dots .owl-dot span,.owl-theme .owl-dots .owl-dot span:hover{
-    background-color:#fff !important;
-    border: 2px solid #ffdd11 !important;
-}
-.owl-theme .owl-dots .owl-dot.active span,.owl-theme .owl-dots .owl-dot.active span:hover{
-    background-color: #ffdd11 !important;
-    border: none !important;
-}
+
 .owl-theme .owl-nav{
     display: none;
 }
@@ -143,24 +109,10 @@ border: none !important;
 }
 
 /* -----------case study from index page---------------- */
-  .case_study .case_btn
-  {
-      border-radius: 0 !important; 
-      border: 1px solid #ffdd11;
-      background-color: #ffdd11;
-      color: #fff !important;
-  }
   .case_study .container .row{
     margin-left: -15px;
     margin-right: -15px;
   }
-  .case_study .case_btn:hover{
-  border-radius: 0 !important;
-  border: 1px solid #ffdd11;
-  background-color: #fff;
-  color: #FFDD11 !important;
-  font-weight: 400 !important;
-  } 
   .case_study input:focus{
     border: 1px solid #f6f6f6;
   }
