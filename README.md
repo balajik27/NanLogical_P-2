@@ -1,4 +1,4 @@
-# BT-Official
+# AT-official
 
 
 
@@ -15,14 +15,14 @@ Already a pro? Just edit this README.md and make it your own. Want to make it ea
 
 ```
 cd existing_repo
-git remote add origin https://gitlab.com/rahulinfotech2001/bt-official.git
+git remote add origin https://gitlab.com/rahulinfotech2001/at-official.git
 git branch -M main
 git push -uf origin main
 ```
 
 ## Integrate with your tools
 
-- [ ] [Set up project integrations](https://gitlab.com/rahulinfotech2001/bt-official/-/settings/integrations)
+- [ ] [Set up project integrations](https://gitlab.com/rahulinfotech2001/at-official/-/settings/integrations)
 
 ## Collaborate with your team
 
